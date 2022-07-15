@@ -10,7 +10,7 @@ namespace CarLotSimulator
         // Default Constructor
         public Car()
         {
-
+            CarLot.numberOfCars++;
         }
         // Permaterized Constructor
         public Car(string make, string model, int year, bool IsDriveable, string engineNoise, string honkNoise)
