@@ -10,7 +10,7 @@ namespace CarLotSimulator
       public static List<Car> ParkingLot { get; set; } = new List<Car>();
 
         // Fields
-     public static int numberOfCars = 1;
+     public static int numberOfCars = 0;
 
         // Methods
 
